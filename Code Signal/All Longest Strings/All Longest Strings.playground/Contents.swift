@@ -21,3 +21,9 @@ func allLongestStrings(inputArray: [String]) -> [String] {
     
 }
 
+allLongestStrings(inputArray: ["aba",
+                               "aa",
+                               "ad",
+                               "vcd",
+                               "aba"])
+
