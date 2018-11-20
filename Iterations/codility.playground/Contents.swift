@@ -89,8 +89,16 @@ func calculateBiggestGap(binary: String)-> Int{
 func subString(start: Int,end: Int, string: String) -> String {
     let startIndex = string.index(string.startIndex, offsetBy: start)
     let endIndex = string.index(string.startIndex, offsetBy: end)
+    
+    string.uppercased()
     return String(string[startIndex..<endIndex])
 }
 
 //calculateBinaryGap(binary: convertBinary(529))
 print(calculateBiggestGap(binary: convertBinary(32)))
+
+
+
+let temp: [int] = [0,1,3,4,5]
+
+temp
