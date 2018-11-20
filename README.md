@@ -18,7 +18,7 @@ I am not affiliate with website that provide algorithm code test.I just want to 
 Don't hestitate to contribute on more efficient code , i love to hear something cool from you or 
 if you find something interesting on why i come up with this type of code , just ask me on [issue](https://github.com/wendyliga/algorithm-code-test/issues)
 
-##License
+## License
 
 All content is licensed under the terms of the MIT open source license.
 
