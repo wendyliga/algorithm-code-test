@@ -1,3 +1,7 @@
+import Foundation
+
+let link = "https://app.codesignal.com/arcade/intro/level-2/xskq4ZxLyqQMCLshr"
+
 func matrixElementsSum(matrix: [[Int]]) -> Int {
     
     var result: Int = 0
