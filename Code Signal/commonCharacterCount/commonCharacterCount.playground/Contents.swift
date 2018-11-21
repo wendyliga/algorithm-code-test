@@ -3,15 +3,8 @@ import UIKit
 var str = "https://app.codesignal.com/arcade/intro/level-3/JKKuHJknZNj4YGL32"
 
 func commonCharacterCount(s1: String, s2: String) -> Int {
-    
-    /*let mappedS1 = s1.characters.map{
-        String($0)
-    }
-    
-    let mappedS2 = s2.characters.map{
-        String($0)
-    }*/
-    
+    // FIRST TRY
+    /*
     var counter: Int = 0
     var isSkipLoop: Bool = false
     var mappedS1 = Array(s1)
@@ -38,7 +31,24 @@ func commonCharacterCount(s1: String, s2: String) -> Int {
         }
     }
     
+    return counter*/
+    
+    // SECOND TRY
+    
+    var mutableSecondString = s2
+    var counter = 0
+    
+    for char in s1.characters{
+        
+        if let index = mutableSecondString.characters.index(of: char){
+            counter += 1
+            mutableSecondString.remove(at: index)
+        }
+        
+    }
+    
     return counter
+    
 }
 
 commonCharacterCount(s1: "zzzz", s2: "zzzzzzz")
