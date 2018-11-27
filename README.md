@@ -1,6 +1,6 @@
 # Algorithm Code Test in Swift
 
-Here you'll find implementations of algorithms code test and data structures in Swift
+Here you'll find implementations of algorithms code test and data structures in Swift.
 Most of Code will competible with current Swift version
 
 ## Caution
@@ -10,7 +10,7 @@ so i am not bother myself to write documentation.
 
 ## Important
 
-I am not affiliate with website that provide algorithm code test.I just want to share some thought about some code test
+I am not affiliate with website that provide algorithm code test.I just want to share my way to solve some algorithm tests
 
 
 ## Contribution
